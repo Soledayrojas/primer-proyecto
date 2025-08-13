@@ -1,60 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tp-Boceto</title> 
-    <link rel="stylesheet" href="estilo.css">
-
-</head> 
-
+    <title>Sven Huellitas - Veterinaria</title>
+    <link rel="stylesheet" href="ultimoestilo.css">
+</head>
 <body>
+
+    <!-- Encabezado -->
     <header>
-        <h1>Titulo del tp</h1>
-        <p> Descripcion de la pagina</p>
-    </header> 
- <main>
-    <section class="servicios">
-        <h2>Servicios</h2>
-    
+        <div class="logo">🐾 Sven Huellitas🐾</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#quienes-somos">Quiénes somos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section id="inicio" class="hero">
+        <h1>🐾Bienvenidos a Sven Huellitas🐾</h1> 
+        <img src="perrito.jpg" alt="Perrito feliz">
+        <p>Cuidamos a tus mascotas como si fueran nuestras.</p>
+        <img src="perrito2.png">
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+
         <details class="servicio">
-            <summary>Servicio 1</summary>
-            <p>Descripción detallada del Servicio 1. Explica brevemente en qué consiste.</p>
+            <summary>Consultas Médicas</summary>
+            <p>Atención veterinaria completa.</p>
         </details>
-    
+
         <details class="servicio">
-            <summary>Servicio 2</summary>
-            <p>Descripción detallada del Servicio 2. </p>
+            <summary>Vacunación</summary>
+            <p>Aplicación de todas las vacunas necesarias para mantener a tu mascota saludable.</p>
         </details>
-    
+
         <details class="servicio">
-            <summary>Servicio 3</summary>
-            <p>Descripción detallada del Servicio 3.</p>
+            <summary>Peluquería</summary>
+            <p>Baños, cortes de pelo y tratamientos para el cuidado del pelaje.</p>
+        </details>
+
+        <details class="servicio">
+            <summary>Guardería</summary>
+            <p>Cuidado diurno para tu mascota mientras trabajas o viajas.</p>
         </details>
     </section>
-    
-<section class="info">
-            <div>
-                <h3>Información de contacto</h3>
-                <p>Correo</p>
-                <p>Telefono</p>
-            </div>
-            <div>
-                <h3>Quiénes somos</h3>
-                <p>Texto breve sobre la empresa.</p>
-            </div>
-        </section>
-<section class="imagen">
-            <h3>Imagen ilustrativa</h3>
-        </section>
-    </main>
 
+    <!-- Quiénes somos -->
+    <section id="quienes-somos" class="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>En <strong>Sven Huellitas</strong> contamos con un equipo de veterinarios y cuidadores apasionados por la salud y bienestar animal. Nuestro objetivo es darles la mejor atención posible a tus compañeros de vida.</p>
+        <div style="font-size: 100px; text-align: center;">🐾</div>
+    </section>
+    
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Teléfono: 223-4447766</p>
+        <p>Email: contacto@svenhuellitas.com</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <textarea placeholder="Escribe tu mensaje..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2025 - Todos los derechos reservados</p>
+        <p>© 2025 Sven Huellitas - Todos los derechos reservados</p>
+        <div class="redes">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">WhatsApp</a>
+        </div>
     </footer>
 
 </body>
 </html>
 
-</body>
-</html>
